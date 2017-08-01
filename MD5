@@ -61,7 +61,7 @@ c6745c999e2c1c675352eb2bc9568266 *R/shade.R
 c7c2a098763a073bdbd0457855e55870 *R/shadowtext.R
 e1564457e3fd3340c3fac6680f33b80a *R/solar.R
 c44bc8a4da9a6b3dbcdb550c8d4a4db5 *R/strip.R
-bc88755a2c7d0efd839df0543a70e100 *R/write.fits.R
+b8227935018dd786b4651e601af4bc48 *R/write.fits.R
 cba91668b77940bb7a7b407735059bf3 *R/write.fitshdr.R
 916cd867777ee20dcc4b3b2776a50549 *R/write.fitskey.R
 93644f88071e7ed3fde154ce191ac672 *R/writeBin64.R

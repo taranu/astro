@@ -93,9 +93,12 @@ write.fits = function(x, file = "star.fits", type = "single", hdu = 0){
             writeBin64(as.vector(d), fcon, size = size, endian = "big")
             
             # pad rest of record with zeros
-            pad = raw(2880 - (length(as.vector(d)) * size)%%2880)
-            writeBin(pad, fcon, endian = "big")
-            
+            lenmod = (length(as.vector(d)) * size)%%2880
+            if(lenmod > 0){
+	            pad = raw(2880 - lenmod)
+	            writeBin(pad, fcon, endian = "big")
+        		}
+
         }
         
     }
